@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title><%=title%></title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<header>
+    <nav class="navbar navbar-mynav" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/images.jp" style="margin-top: -10px" alt="logo"></a>
+            </div>
+            
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/login">Logout</a></li> 
+                       
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav><!--/nav-->
+        
+  </header>
+<body>
+ 	<div>
+ 		<h2 style="color: #000; text-align: center;margin-top: 50px"><b><%=title%></b></h2>
+ 	</div>
+
+ 	<div class="" style="border: 1px solid #ccc; ;margin-bottom: 20px;width: 300px;height: 100px; box-shadow: 2px 2px 2px 2px; color: #888888; margin-left: 100px;margin-top:50px;padding: 20px;width: 800px;height: 100px; border-radius: 10px">
+ 		<p>Hi! <a href="/login"> Sign In</a><span> to upload a photo and make cool 5% agent fee.</span></p>
+ 		
+ 	</div>
+
+ 	<div class="" style="border: 1px solid #ccc; ;margin-bottom: 20px;width: 300px;height: 100px; box-shadow: 2px 2px 2px 2px; color: #888888; margin-left: 100px;margin-top:50px;padding: 20px;width: 800px;height: 600px; border-radius: 10px">
+  <div class="container">
+ 	<div class="row">
+  		<div class="col-sm-5">
+    		<div class="jumbotron">
+ 				 <p style="color: #000; font-size: 15px" >If you want us to find a particular kind of house that is not available in our gallary please kindly drop the following details and make sure you are a registered user before this procedure <span style="color: #1874cd">Thanks!</span></p>
+ 
+    			   <div class="">
+                <div>
+<!--                     <h1>The simplest way to find a house for rent</h1>
+ -->
+                </div>
+
+                <form  action="/" method="post">
+                    <div class="form-group">
+                        <div  class="inputs">
+                            <input type="text" class="form-control" name="name" placeholder="House type "/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div  class="inputs">
+                            <input type="text" class="form-control" name="location" placeholder="Location"/>
+                        </div>
+                    </div  class="inputs">
+                     <div class="form-group">
+                        <div  class="inputs">
+                            <input type="text" class="form-control" name="amount" placeholder="Price"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <div class="submit inputs">
+                            <button type="submit" class="btn btn-info btn-block">Search</button>
+                        </div>
+                    </div>
+                </form>  
+            </div>
+
+
+  			</div>
+
+  		</div>
+  		<div class="col-sm-4">
+    		<div class="jumbotron">
+  				<h4 style="color: #000; text-align: center;"><b>How can we help?</b></h4>
+  				<h4 style="color: #000; text-align: left">Popular solutions</h4>
+ 
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >Want to order or cancel order</p>
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >Want to know more about  BeAgent</p>
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >How to Upload photos</p>
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >Dos & Don'ts</p>
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >Forget username or password</p>
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >BeAgent fees,billing and invoices</p>
+    			<p style="color: #000; font-size: 15px;text-align: left;border-bottom: 1px dotted #000" >Resolution center</p>
+
+  			</div>
+
+  		</div>
+  	</div>
+ </div>
+ </div>
+ 	<div class="" style="border: 1px solid #ccc; ;margin-bottom: 20px;width: 300px;height: 100px; box-shadow: 2px 2px 2px 2px; color: #888888; margin-left: 100px;margin-top:50px;padding: 20px;width: 800px;height: 550px; border-radius: 10px">
+ 		<h4 style="color: #000; text-align: center;margin-bottom: 30px;"><b>We will like to here from you</b></h4>
+
+ 		<div class="jumbotron" style="width: 300px; border-radius: 5px; margin-left: 250px;">
+ 		<p style="color: #000; font-size: 15px; margin-left: 35px;" >We here in BeAgent will love to here from you <span style="color: #1874cd">Thanks!</span></p>
+ 
+	        <form  action="/" method="post">
+	            <div class="form-group">
+	                <div  class="inputs">
+	                    <input type="emial" class="form-control" name="name" placeholder="Email "/>
+	                </div>
+	            </div>
+
+	            <div class="form-group">
+	                <div  class="inputs">
+	                    <input type="password" class="form-control" name="location" placeholder="password"/>
+	                </div>
+	            </div  class="inputs">
+	             <div class="form-group">
+	                <div  class="inputs">
+	                    <textarea class="form-control rows="5" " id="Comment" form="usrform">Type in comment</textarea> 
+	                </div>
+	            </div>
+
+	            <div class="form-group ">
+	                <div class="submit inputs">
+	                <a href="http://juliettejuli@yahoo.com" class="btn btn-info btn-block" role="button">Submit</a>
+	                    
+	                </div>
+	            </div>
+	        </form>  
+         </div>
+ 		
+ 	</div>
+  
+
+  <footer>
+        
+    <% include ./footer %>
+  </footer>
+   
+
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/validateScript.js" type="text/javascript"></script>      
+</body>
+</html>
