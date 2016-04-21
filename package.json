@@ -1,5 +1,5 @@
 {
-  "name": "julietteEssence",
+  "name": "julietteessence",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -17,5 +17,11 @@
     "morgan": "~1.6.1",
     "multer": "^1.1.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
+
